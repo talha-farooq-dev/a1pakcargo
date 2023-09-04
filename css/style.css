@@ -1,0 +1,1293 @@
+                        * {
+                            padding: 0;
+                            margin: 0;
+                        }
+                        /* hero section */
+                        
+                        #hero {
+                            background-image: url('/images/heroimg.jpg');
+                            background-size: cover;
+                            position: relative;
+                            overflow: hidden;
+                            width: 100%;
+                            /* height: 580px; */
+                        }
+                        /* nav {
+                        margin: 0px 13px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                     */
+                        /* .navbar {
+                        margin-top: 10px;
+                    } */
+                        /* .navbar ul {
+                        display: flex;
+                        gap: 28px;
+                        margin-left: -30px;
+                    } */
+                        /*                     
+                    .navbar ul li {
+                        list-style: none;
+                    } */
+                        /* .navbar ul li a {
+                        text-decoration: none;
+                        color: black;
+                        font-family: 'Lora', serif;
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+                     */
+                        
+                        .nav-item a:hover {
+                            color: #28296a;
+                        }
+                        
+                        .nav-item a {
+                            font-family: 'Lora', serif;
+                            font-weight: 500;
+                            font-size: 15px;
+                        }
+                        
+                        .navbar {
+                            padding: 0;
+                        }
+                        
+                        .navbar-brand img {
+                            width: 92%;
+                        }
+                        
+                        .whatsapp {
+                            display: flex;
+                            gap: 4px;
+                            align-items: center;
+                        }
+                        
+                        #whatslogo {
+                            width: 30px;
+                            height: 30px;
+                        }
+                        
+                        .whatsapp a {
+                            text-decoration: none;
+                            font-family: 'Lora', serif;
+                            font-weight: 700;
+                            color: black;
+                            font-size: 20px;
+                        }
+                        
+                        @media(max-width:1270px) {
+                            .navbar ul {
+                                display: flex;
+                                gap: 5px;
+                            }
+                            .navbar ul li a {
+                                text-decoration: none;
+                                color: black;
+                                font-family: 'Lora', serif;
+                                font-weight: 500;
+                                font-size: 12px;
+                            }
+                            .nav-item li {
+                                font-size: 10px;
+                            }
+                            .logo img {
+                                width: 80%;
+                            }
+                            #whatslogo {
+                                width: 25px;
+                                height: 25px;
+                            }
+                            #num a {
+                                font-size: 16px;
+                            }
+                        }
+                        
+                        @media(max-width:1093px) {
+                            .navbar ul {
+                                display: flex;
+                                gap: 5px;
+                            }
+                            .navbar ul li a {
+                                text-decoration: none;
+                                color: black;
+                                font-family: 'Lora', serif;
+                                font-weight: 500;
+                                font-size: 10px;
+                            }
+                            .logo img {
+                                width: 70%;
+                            }
+                            #whatslogo {
+                                width: 20px;
+                                height: 20px;
+                            }
+                            #num a {
+                                font-size: 14px;
+                            }
+                        }
+                        
+                        .whatsapp i {
+                            color: black;
+                            display: none;
+                        }
+                        
+                        #num a p {
+                            margin-top: 10px;
+                        }
+                        
+                        @media(max-width:989px) {
+                            nav {
+                                background-color: white;
+                                margin: 0;
+                            }
+                            .whatsapp i {
+                                font-size: 40px;
+                                display: block;
+                            }
+                            #whatslogo {
+                                width: 30px;
+                                height: 30px;
+                            }
+                            #num a p {
+                                font-size: 20px;
+                                margin-top: 10px;
+                            }
+                            .logo {
+                                margin-left: 20px;
+                            }
+                            .whatsapp {
+                                margin-right: 20px;
+                            }
+                        }
+                        
+                        @media(min-width:989px) and (max-width:1120px) {}
+                        
+                        #banner {
+                            background-color: rgba(0, 0, 0, 0.467);
+                            border: 3px solid #28296a;
+                            border-radius: 5px;
+                            margin-top: 45px;
+                            margin-bottom: 50px;
+                            width: 65%;
+                        }
+                        
+                        #form {
+                            margin-top: 20px;
+                        }
+                        
+                        .row h2 {
+                            color: white;
+                            text-align: center;
+                            font-family: 'Lora', serif;
+                            font-weight: 700;
+                            margin-top: 20px;
+                        }
+                        
+                        #banner .row .col h6 {
+                            color: white;
+                            font-family: 'Lora', serif;
+                            font-weight: 500;
+                        }
+                        
+                        #row_bar {
+                            display: grid;
+                        }
+                        
+                        @media (width<=1600px) {
+                            #row_bar {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                            }
+                        }
+                        
+                        @media (width<=737px) {
+                            #row_bar {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                        
+                        @media (width<=481px) {
+                            #row_bar {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                            }
+                        }
+                        
+                        .banner_last {
+                            padding: 0;
+                        }
+                        
+                        .second_heading {
+                            margin-top: 30px;
+                        }
+                        
+                        input {
+                            border: none;
+                            border-bottom: 0.5px solid white;
+                            background-color: unset;
+                            outline: none;
+                            color: white;
+                        }
+                        
+                        @media(width<=638px) {
+                            input {
+                                border: none;
+                                border-bottom: 0.5px solid white;
+                                background-color: unset;
+                                outline: none;
+                            }
+                        }
+                        
+                        label {
+                            position: relative;
+                            top: 0;
+                            left: 0;
+                            display: flex;
+                            align-items: center;
+                            cursor: text;
+                            color: white;
+                            color: white;
+                            font-family: 'Lora', serif;
+                            font-weight: 300;
+                            font-size: 12px;
+                        }
+                        
+                        input {
+                            font-size: 1em;
+                            height: 16px;
+                        }
+                        
+                        #button {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        #button button {
+                            background-color: #148503;
+                            border-radius: 25px;
+                            color: white;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: 1000;
+                            border: none;
+                            outline: none;
+                            padding: 10px 35px;
+                            margin-top: 20px;
+                            font-size: 19px;
+                        }
+                        
+                        #button button:hover {
+                            background-color: #28296a;
+                            transition: 0.3s;
+                        }
+                        
+                        @media(width<=560px) {
+                            #button button {
+                                padding: 5px 25px;
+                                font-size: 14px;
+                            }
+                        }
+                        
+                        @media(width<=430px) {
+                            #button button {
+                                padding: 5px 15px;
+                                font-size: 10px;
+                            }
+                        }
+                        
+                        #row_bar ul {
+                            text-align: center;
+                            margin-top: 15px;
+                            padding: 0;
+                            margin: 0;
+                        }
+                        
+                        #row_bar ul li {
+                            display: flex;
+                            color: white;
+                            /* text-align: center; */
+                            margin-top: 10px;
+                            font-size: 12.5px;
+                        }
+                        
+                        #row_bar ul li i {
+                            margin-top: 5px;
+                        }
+                        
+                        #row_bar {
+                            background-color: #28296a;
+                            margin-top: 25px;
+                        }
+                        /* //hero section */
+                        /* Why chose us */
+                        
+                        #col_why_chose {
+                            padding-bottom: 50px;
+                        }
+                        
+                        .parent {
+                            display: flex;
+                            align-items: center;
+                        }
+                        
+                        #heading_chose h3 {
+                            text-align: center;
+                            color: #28296a;
+                            font-family: 'Lora', serif;
+                            font-weight: 700;
+                            margin-top: 30px;
+                        }
+                        
+                        #material_chose {
+                            margin-top: 65px;
+                            padding: -1px 50px;
+                        }
+                        
+                        #material_chose .text h5 {
+                            font-family: 'Lora', serif;
+                            color: #28296a;
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+                        
+                        #material_chose .text p {
+                            font-family: 'Lora', serif;
+                            color: #28296a;
+                            font-weight: 300;
+                            font-size: 14px;
+                        }
+                        
+                        #material_chose .parent .tick img {
+                            width: 50px;
+                        }
+                        
+                        #material_chose {
+                            padding: 0px 100px;
+                        }
+                        
+                        @media(max-width:989px) {
+                            #first {
+                                margin-top: 40px;
+                            }
+                            #slider {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            #material_chose {
+                                padding: 0;
+                            }
+                        }
+                        
+                        @media(min-width:500px) and (max-width:989px) {
+                            .w-75 {
+                                width: 60%!important;
+                            }
+                        }
+                        
+                        #material_chose .parent .tick {
+                            margin-right: 30px;
+                        }
+                        /* //Why chose us */
+                        /* services */
+                        
+                        #con_flu_services {
+                            width: 100%;
+                            height: 100%;
+                            background-image: url('/images/services.png');
+                            background-size: cover;
+                            position: relative;
+                            overflow: hidden;
+                            padding-bottom: 50px;
+                        }
+                        
+                        #con_flu_services .row {
+                            padding: 5px 2px;
+                        }
+                        
+                        #con_flu_services .row #col {
+                            background-color: white;
+                            margin: 0 0px;
+                            box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.189);
+                            border-radius: 3px;
+                            transition: 0.5s ease;
+                        }
+                        
+                        #con_flu_services .row #col:hover {
+                            transform: translateY(-10px);
+                        }
+                        
+                        @media(min-width:989px) and (max-width:1600px) {
+                            #con_flu_services #material_service {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr 1fr;
+                                gap: 30px;
+                            }
+                        }
+                        
+                        @media(min-width:768px) and (max-width:989px) {
+                            #con_flu_services #material_service {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr;
+                                gap: 30px;
+                            }
+                        }
+                        
+                        @media(min-width:500px) and (max-width:768px) {
+                            #con_flu_services #material_service {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                                gap: 30px;
+                            }
+                        }
+                        
+                        @media(max-width:500px) {
+                            #con_flu_services #material_service {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                                gap: 30px;
+                            }
+                        }
+                        
+                        #con_flu_services .row #col:hover .buttons {
+                            border: 3px solid white;
+                            color: white;
+                            background: none;
+                        }
+                        
+                        #con_flu_services .row #col:hover {
+                            background-color: rgba(0, 128, 0, 0.95);
+                        }
+                        
+                        #con_flu_services .row #col:hover h5 {
+                            color: white;
+                        }
+                        
+                        #con_flu_services .row #col:hover p {
+                            color: white;
+                        }
+                        
+                        .icon_img {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .col-3 {
+                            width: 22.7%;
+                        }
+                        
+                        #con_flu_services .row #col h5 {
+                            font-family: 'Lora', serif;
+                            text-align: center;
+                            color: #28296a;
+                            font-weight: 700;
+                            margin-top: 20px;
+                        }
+                        
+                        #con_flu_services .row #col a {
+                            text-decoration: none;
+                        }
+                        
+                        #con_flu_services .row #col p {
+                            font-family: 'Lora', serif;
+                            text-align: center;
+                            font-weight: 300;
+                            font-size: 15.3px;
+                            line-height: 23px;
+                        }
+                        
+                        #con_flu_services .row #col .button {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        #con_flu_services .row #col .button button {
+                            background-color: white;
+                            border-radius: 22px;
+                            border: 2px solid green;
+                            color: #28296a;
+                            padding: 8px 22px;
+                            font-family: 'Lora', serif;
+                            font-weight: 700;
+                            margin-top: -10px;
+                            margin-bottom: 30px;
+                        }
+                        
+                        #one_sec {
+                            margin-top: 40px;
+                        }
+                        
+                        #con_flu_services h3 {
+                            color: #28296a;
+                            text-align: center;
+                            font-family: 'Lora', serif;
+                            font-weight: 700;
+                        }
+                        
+                        #heading_service {
+                            margin-top: 40px;
+                        }
+                        
+                        #material_service {
+                            margin-top: 30px;
+                        }
+                        /*// services */
+                        /* A1 pak Cargo */
+                        
+                        #A1_material {
+                            display: grid;
+                            gap: 30px;
+                        }
+                        
+                        #con_flu_A1 #h3_heading {
+                            text-align: center;
+                            color: #28296a;
+                            margin-top: 10px;
+                        }
+                        
+                        #A1_material .a1_cargo_img {
+                            box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.315);
+                        }
+                        
+                        @media(min-width:800px) and (max-width:1600px) {
+                            #A1_material {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(max-width:800px) {
+                            #A1_material {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                            }
+                        }
+                        
+                        #A1_material .a1_cargo_img {
+                            border-radius: 7px;
+                        }
+                        
+                        #A1_material .a1_cargo_img img {
+                            border-radius: 7px;
+                        }
+                        
+                        #A1_material .a1_cargo_img {
+                            padding: 0;
+                        }
+                        
+                        #A1_material .a1_cargo_img img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        #detail_one {
+                            margin-top: 25px;
+                        }
+                        
+                        .details h3 {
+                            color: #28296a;
+                        }
+                        
+                        .details p {
+                            font-size: 19px;
+                        }
+                        /*// A1 pak argo */
+                        /* major areas */
+                        
+                        #con_flu_major .row {
+                            display: grid;
+                        }
+                        
+                        @media(min-width:874px) and (max-width:1600px) {
+                            #con_flu_major .row {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(min-width:400px) and (max-width:874px) {
+                            #con_flu_major .row {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                        
+                        #con_flu_major {
+                            background-color: #28296a;
+                            margin-top: 25px;
+                            padding-top: 40px;
+                            padding-bottom: 40px;
+                        }
+                        
+                        #con_flu_major h3 {
+                            text-align: center;
+                            color: white;
+                            font-weight: bold;
+                        }
+                        
+                        #con_flu_major .major_areas ul li {
+                            border-bottom: 1px dashed #fff;
+                            list-style: none;
+                            font-size: 17px;
+                            height: 37px;
+                            margin-top: 25px;
+                            margin-right: 10px;
+                        }
+                        
+                        #con_flu_major .major_areas ul li i {
+                            margin-right: 7px;
+                            font-size: 17px;
+                        }
+                        
+                        #con_flu_major .major_areas ul li:hover {
+                            transform: translatex(-8px);
+                            transition: 0.4s;
+                        }
+                        
+                        #con_flu_major .major_areas {
+                            margin-top: 5px;
+                        }
+                        
+                        #con_flu_major .major_areas ul li a {
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                        
+                        #click h3 {
+                            color: white;
+                            text-align: center;
+                            margin-top: 19px;
+                            font-weight: 400;
+                        }
+                        
+                        #click h3 i {
+                            margin-left: 10px;
+                            font-size: 23px;
+                        }
+                        /*// major areas */
+                        /* happy customers  */
+                        
+                        #con_flu_happy {
+                            margin-top: 30px;
+                            padding-bottom: 60px;
+                        }
+                        
+                        #con_flu_happy .row {
+                            padding-bottom: 30px;
+                        }
+                        
+                        #con_flu_happy h3 {
+                            color: #28296a;
+                            text-align: center;
+                            font-weight: 700;
+                        }
+                        
+                        .customers_two {
+                            display: flex;
+                        }
+                        
+                        #col_happy {
+                            border-radius: 8px;
+                            box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.159);
+                            margin-top: 35px;
+                        }
+                        
+                        #con_flu_happy .row {
+                            padding: 0px 30px;
+                            display: grid;
+                            gap: 30px;
+                        }
+                        
+                        .text_happy a {
+                            text-decoration: none;
+                            color: black;
+                        }
+                        
+                        .img_happy {
+                            margin-top: 28px;
+                        }
+                        
+                        @media(width<=1600px) {
+                            #con_flu_happy .row {
+                                padding: 0px 30px;
+                                display: grid;
+                                gap: 30px;
+                                grid-template-columns: 1fr 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(width<=989px) {
+                            #con_flu_happy .row {
+                                padding: 0px 30px;
+                                display: grid;
+                                gap: 30px;
+                                grid-template-columns: 1fr;
+                            }
+                        }
+                        
+                        @media(width>=989px) {
+                            .img_happy img {
+                                width: 100%;
+                            }
+                        }
+                        
+                        .customers_two {
+                            display: grid;
+                        }
+                        
+                        @media(width<=1600px) {
+                            .customers_two {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr
+                            }
+                        }
+                        
+                        @media(width<=989px) {
+                            .customers_two {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                            }
+                            .text_happy a {
+                                text-align: center;
+                                font-size: 20px !important;
+                            }
+                            .text_happy p {
+                                text-align: center;
+                                font-size: 20px !important;
+                            }
+                            .text_happy h6 {
+                                text-align: center;
+                                font-size: 20px !important;
+                            }
+                            .text_happy a {
+                                margin-top: -10px;
+                                font-size: 20px !important;
+                            }
+                            .stars_icons {
+                                display: flex;
+                                justify-content: center;
+                                margin-top: 10px;
+                            }
+                            .stars_icons i {
+                                display: flex;
+                                justify-content: center;
+                                margin-top: 10px;
+                                font-size: 35px !important;
+                            }
+                            .text_happy {
+                                margin-right: 0px !important;
+                                margin-top: 0px !important;
+                            }
+                            .link_center {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            .happy_cus h5 {
+                                text-align: center;
+                                margin-top: 10px;
+                                font-size: 25px !important;
+                            }
+                            .img_happy {
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+                        /* #col_imges img {
+                            width: 120%;
+                        } */
+                        
+                        .img_happy {
+                            width: 100%;
+                        }
+                        
+                        .img_happy img {
+                            width: 70%;
+                        }
+                        
+                        .text_happy h6,
+                        p {
+                            font-family: 'Lora', serif;
+                        }
+                        
+                        .text_happy h6 {
+                            color: #28296a;
+                            font-size: 21px;
+                            font-weight: 700;
+                        }
+                        
+                        .text_happy a {
+                            font-size: 13px;
+                        }
+                        
+                        .text_happy {
+                            margin-right: 80px;
+                            margin-top: 29px;
+                        }
+                        
+                        .stars_icons i {
+                            color: #ffc107;
+                            font-size: 20px;
+                            ;
+                        }
+                        
+                        .p_cards_text {
+                            font-family: 'Lora', serif;
+                            font-size: 300;
+                            color: rgba(128, 128, 128, 0.715);
+                        }
+                        
+                        .happy_cus h5 {
+                            font-family: 'Lora', serif;
+                            font-size: 300;
+                            font-size: 14.5px;
+                            color: black;
+                            margin-top: 10px;
+                        }
+                        /*// happy customers  */
+                        /* footer */
+                        
+                        #con_flu_footer {
+                            background-color: #28296a;
+                        }
+                        
+                        #con_flu_footer #row_info_footer {
+                            padding: 0px 20px;
+                        }
+                        
+                        #con_flu_footer .a1_footer .headings_ul {
+                            margin-top: 50px;
+                        }
+                        
+                        #con_flu_footer .a1_footer .headings_ul {
+                            margin-top: 50px;
+                        }
+                        
+                        #con_flu_footer .col .headings_ul li {
+                            border-bottom: 1px solid #ffffff5f;
+                            list-style: none;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 700;
+                            height: 45px;
+                        }
+                        
+                        #con_flu_footer .a1_footer .headings_ul li {
+                            border-bottom: 1px solid #ffffff5f;
+                            list-style: none;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 700;
+                            height: 45px;
+                        }
+                        
+                        #con_flu_footer .a1_footer,
+                        .a1_footer p {
+                            color: white;
+                        }
+                        
+                        #con_flu_footer .a1_footer p {
+                            color: white;
+                            margin-left: 30px;
+                        }
+                        
+                        #row_info_footer {
+                            display: grid;
+                        }
+                        
+                        @media(min-width:1100px) and (max-width:1600px) {
+                            #row_info_footer {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(min-width:768px) and (max-width:1100px) {
+                            #row_info_footer {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(max-width:768px) {
+                            #row_info_footer {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                            }
+                        }
+                        
+                        #two_cloumns {
+                            display: grid;
+                        }
+                        
+                        @media(width<=1600px) {
+                            #two_cloumns {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                        
+                        #two_cloumns ul li {
+                            list-style: none;
+                            margin-top: 8px;
+                        }
+                        
+                        #two_cloumns ul li i {
+                            margin-right: 10px;
+                        }
+                        
+                        #two_cloumns ul li a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        #third_last_ul_footer li {
+                            list-style: none;
+                            margin-top: 13px;
+                        }
+                        
+                        #third_last_ul_footer li a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                        
+                        #third_last_ul_footer li a i {
+                            font-size: 20px;
+                            margin-right: 20px;
+                        }
+                        
+                        #right_div_footer {
+                            margin-left: 20px;
+                        }
+                        
+                        #icons_footer_social {
+                            display: flex;
+                            gap: 20px;
+                        }
+                        
+                        #icons_footer_social li {
+                            list-style: none;
+                        }
+                        
+                        #icons_footer_social li a {
+                            color: white;
+                            text-decoration: none;
+                            font-size: 33px;
+                        }
+                        
+                        #row_line {
+                            padding: 0;
+                            margin: 0;
+                        }
+                        
+                        #line_footer {
+                            border-bottom: 1px solid #ffffff5f;
+                            list-style: none;
+                            margin-top: 20px;
+                            padding: 0;
+                        }
+                        
+                        #row_line .col {
+                            margin-top: 10px;
+                            padding-bottom: 15px;
+                        }
+                        
+                        #row_line .col p {
+                            color: #fff;
+                        }
+                        
+                        #row_line .col p a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                        
+                        #con_flu_footer {
+                            font-size: 14px !important;
+                        }
+                        /* //footer */
+                        /* air cargo */
+                        /* other services */
+                        
+                        .other_service h3 {
+                            text-align: center;
+                            color: #28296a;
+                            font-weight: bold;
+                        }
+                        
+                        .logo_cards {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .card-title {
+                            color: #28296a;
+                            font-weight: 600;
+                        }
+                        
+                        .card-text {
+                            font-size: 16px;
+                        }
+                        
+                        .card-body .card-title,
+                        .card-text {
+                            text-align: center;
+                        }
+                        
+                        .card {
+                            border: none;
+                            box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.15);
+                            border-radius: 0;
+                            transition: 0.4s;
+                        }
+                        
+                        .card:hover {
+                            transform: translatey(-15px);
+                            transition: 0.4s;
+                            box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.418);
+                        }
+                        
+                        .card-group {
+                            display: flex;
+                            gap: 25px;
+                        }
+                        
+                        @media(max-width:989px) {
+                            .card-group {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(max-width:700px) {
+                            .card-group {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                            }
+                        }
+                        
+                        .logo_cards {
+                            padding-bottom: 35px;
+                        }
+                        /*// other services */
+                        /* send your air cargo */
+                        
+                        #send_air_cargo .h4_main_heading {
+                            text-align: center;
+                            color: #28296a;
+                        }
+                        /*             
+            #con_flu_s_a_cargo .row {
+                padding: 0px 100px;
+            } */
+                        
+                        .img_air_one img {
+                            width: 60%;
+                            height: 90%;
+                            border-radius: 8px;
+                            box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.317);
+                            margin-left: 50px;
+                        }
+                        
+                        #second_air_cargo_img img {
+                            width: 60%;
+                            height: 90%;
+                            border-radius: 8px;
+                            box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.317);
+                            margin-left: 50px;
+                        }
+                        
+                        .first_row {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                        }
+                        
+                        .first_row h3 {
+                            word-spacing: -2px;
+                            margin-left: -30px;
+                            font-size: 23px;
+                            color: #28296a;
+                            margin-left: 1px;
+                        }
+                        
+                        .first_row p {
+                            font-size: 17px;
+                            font-weight: 400;
+                            text-align: center;
+                        }
+                        
+                        .img_air_one {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        #second_air_cargo_img {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .text_air_cargo {
+                            margin-left: 100px;
+                        }
+                        
+                        .first_row {
+                            width: 100%;
+                        }
+                        
+                        .text_air_cargo {
+                            width: 95%;
+                        }
+                        
+                        .img_air_one {
+                            width: 100%;
+                        }
+                        
+                        #second_air_cargo_img {
+                            width: 100%;
+                        }
+                        
+                        @media(max-width:1150px) {
+                            .first_row {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                            }
+                            .text_center {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            .text_air_cargo {
+                                margin-left: 0;
+                            }
+                            .img_air_one {
+                                margin-top: 20px;
+                            }
+                            #second_air_cargo_img {
+                                margin-top: 20px;
+                            }
+                            .img_air_one img {
+                                margin: 0;
+                            }
+                            #second_air_cargo_img img {
+                                margin: 0;
+                            }
+                            .first_row h3 {
+                                text-align: center;
+                            }
+                            #second_air_cargo_img img {
+                                margin-left: 100px;
+                            }
+                            #second_air_cargo_text {
+                                margin-right: -50px;
+                            }
+                        }
+                        
+                        @media(min-width:1030px) and (max-width:1200px) {
+                            .text_air_cargo {
+                                margin-left: 40px;
+                            }
+                        }
+                        
+                        #h4_third {
+                            margin-left: -300px;
+                        }
+                        
+                        #second_air_cargo_img {
+                            margin-left: -52px;
+                        }
+                        
+                        #second_air_cargo_text {
+                            margin-left: -50px;
+                        }
+                        
+                        .last_row {
+                            width: 75%;
+                        }
+                        
+                        #align_center_last {
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 40px;
+                        }
+                        
+                        .last_row h4 {
+                            color: #28296a;
+                            font-weight: 700;
+                        }
+                        
+                        .last_row p {
+                            font-size: 17px;
+                            margin-top: 20px;
+                        }
+                        
+                        .last_row h4 {
+                            text-align: center;
+                        }
+                        
+                        .last_row p {
+                            text-align: center;
+                        }
+                        
+                        @media(max-width:989px) {
+                            .last_row {
+                                width: 90%;
+                            }
+                        }
+                        /* /send your air cargo */
+                        /* Our services */
+                        
+                        #con_flu_our_service {
+                            margin-top: 20px;
+                            padding-bottom: 60px;
+                        }
+                        
+                        #con_flu_our_service h3 {
+                            text-align: center;
+                            font-weight: 700;
+                            color: #28296a;
+                        }
+                        
+                        .card {
+                            cursor: pointer;
+                        }
+                        
+                        #con_flu_our_service .row .card-group .card .card-body {
+                            border-bottom: 3px solid #28296a;
+                            border-radius: 4px;
+                        }
+                        
+                        @media(min-width:989px) and (max-width:1600px) {
+                            #con_flu_our_service .row .card-group {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(min-width:768px) and (max-width:989px) {
+                            #con_flu_our_service .row .card-group {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(min-width:500px) and (max-width:768px) {
+                            #con_flu_our_service .row .card-group {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                        
+                        @media(max-width:500px) {
+                            #con_flu_our_service .row .card-group {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                            }
+                        }
+                        
+                        #con_flu_our_service .row .card-group .card {
+                            margin-top: 35px;
+                        }
+                        
+                        #con_flu_our_service .row .card-group .card .card-body h5 {
+                            font-weight: 700;
+                        }
+                        /*// Our services */
+                        /*// air cargo */
