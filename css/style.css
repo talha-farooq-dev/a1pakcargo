@@ -809,6 +809,19 @@
             }
         }
         
+        @media(max-width:400px) {
+            #banner_one {
+                display: block;
+                width: 120px;
+                height: 120px;
+            }
+            #banner_second {
+                display: block;
+                width: 120px;
+                height: 120px;
+            }
+        }
+        
         @media(min-width:412px) {
             #banner_one {
                 width: 100%;
@@ -948,6 +961,15 @@
             .w-75 {
                 width: 100% !important;
             }
+        }
+        
+        #banner {
+            /* margin: 0 !important; */
+            padding: 0 !important;
+        }
+        
+        #form {
+            padding: 0px 10px !important;
         }
         
         @media(max-width:440px) {
