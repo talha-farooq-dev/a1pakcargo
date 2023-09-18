@@ -859,7 +859,7 @@
         }
         
         #material_chose .col-md-12 {
-            padding: 0px 40px;
+            padding: 0px 15px;
         }
         
         .ship-two {
@@ -955,16 +955,16 @@
                 font-family: 'Lora', serif;
                 color: #28296a;
                 font-weight: 700;
-                font-size: 14px;
+                font-size: 16px;
             }
             #material_chose .text p {
                 font-family: 'Lora', serif;
                 color: #28296a;
                 font-weight: 300;
-                font-size: 11px;
+                font-size: 13px;
             }
             #material_chose .parent .tick img {
-                width: 30px;
+                width: 34px;
             }
         }
         
@@ -1000,7 +1000,7 @@
             position: relative;
             overflow: hidden;
             padding-bottom: 50px;
-            padding: 0px 50px;
+            padding: 0px 30px;
         }
         
         #con_flu_services .row {
@@ -1201,7 +1201,7 @@
         /* A1 pak Cargo */
         
         #con_flu_A1 {
-            padding: 0px 50px;
+            padding: 0px 30px;
         }
         
         #A1_material {
@@ -1325,7 +1325,7 @@
             margin-top: 25px;
             padding-top: 40px;
             padding-bottom: 40px;
-            padding: 25px 55px;
+            padding: 25px 32px;
         }
         
         #con_flu_major h3 {
@@ -1453,7 +1453,7 @@
         }
         
         #con_flu_happy .row {
-            padding: 0px 40px;
+            padding: 0px 19px;
         }
         
         @media(width<=2560px) {
@@ -1690,7 +1690,7 @@
         }
         
         #con_flu_footer #row_info_footer {
-            padding: 0px 52px;
+            padding: 0px 32px;
         }
         
         #con_flu_footer .a1_footer .headings_ul {
@@ -2142,7 +2142,7 @@
         }
         
         #copy_right {
-            padding: 0px 50px;
+            padding: 0px 30px;
         }
         
         @media(min-width:1030px) and (max-width:1200px) {
